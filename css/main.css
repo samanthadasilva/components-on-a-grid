@@ -42,3 +42,28 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+
+figure {
+  margin: 0;
+}
+
+.pano {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  z-index: 0;
+}
+
+.logo {
+  display: grid;
+  align-items: flex-end;
+  width: 14rem;
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 2;
+}
+
+nav {
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 1;
+}
