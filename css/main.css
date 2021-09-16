@@ -67,3 +67,15 @@ nav {
   grid-row: 1;
   z-index: 1;
 }
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Patua One", sans-serif;
+  padding-right: 1rem;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
