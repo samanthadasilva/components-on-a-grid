@@ -79,3 +79,18 @@ li {
   list-style: none;
   display: inline-block;
 }
+
+a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #30658d;
+  font-family: "Patua One", sans-serif;
+}
+
+p {
+  font-family: "Georgia", sans-serif;
+  color: #000;
+}
